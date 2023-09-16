@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pythonputer:block/sapphire_block",
+    "top": "minecraft:block/iron_block"
+  }
+}
