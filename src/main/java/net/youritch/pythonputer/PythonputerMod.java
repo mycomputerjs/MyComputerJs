@@ -16,12 +16,9 @@ import net.youritch.pythonputer.block.ModBlocks;
 import net.youritch.pythonputer.item.ModCreativeModTabs;
 import net.youritch.pythonputer.item.ModItems;
 import net.youritch.pythonputer.util.Python;
-import org.python.util.PythonInterpreter;
+//import org.python.util.PythonInterpreter;
 import org.slf4j.Logger;
 
-import java.util.ArrayList;
-import java.util.Dictionary;
-import java.util.List;
 import java.util.Map;
 
 // The value here should match an entry in the META-INF/mods.toml file

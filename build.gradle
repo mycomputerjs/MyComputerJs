@@ -150,12 +150,10 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-    //minecraftLibrary group: 'org.python', name: 'jython-slim', version: '2.7.3'
-    jarJar(group: 'org.python', name: 'jython-slim', version: '[2.0.0,3.0.0)') {
-        jarJar.pin(it, '2.7.3')
-    }
-    //minecraftLibrary group: 'org.python', name: 'jython-slim', version: '2.7.3'
-    minecraftLibrary 'org.python:jython-slim:2.7.3'
+    //jarJar(group: 'org.python', name: 'jython-slim', version: '[2.0.0,3.0.0)') {
+        //jarJar.pin(it, '2.7.3')
+    //}
+    //minecraftLibrary 'org.python:jython-slim:2.7.3'
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
