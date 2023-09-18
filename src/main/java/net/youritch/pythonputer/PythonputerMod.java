@@ -15,30 +15,22 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.youritch.pythonputer.block.ModBlocks;
 import net.youritch.pythonputer.item.ModCreativeModTabs;
 import net.youritch.pythonputer.item.ModItems;
+import net.youritch.pythonputer.util.Python;
+import org.python.util.PythonInterpreter;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
-/*@Mod(PythonputerMod.MODID)
-public class PythonputerMod
-{
-    public static final String MODID = "pythonputer";
-    private static final Logger LOGGER = LogUtils.getLogger();
-
-    public PythonputerMod()
-    {
-        loadAll();
-    }
-
-    public static void loadAll() {
-
-    }
-}*/
+import java.util.ArrayList;
+import java.util.Dictionary;
+import java.util.List;
+import java.util.Map;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(PythonputerMod.MODID)
 public class PythonputerMod {
     public static final String MODID = "pythonputer";
     public static final Logger LOGGER = LogUtils.getLogger();
+    public static Map<String, Python> pyInterpreters;
+    //PythonInterpreter[]
 
     public PythonputerMod(){
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

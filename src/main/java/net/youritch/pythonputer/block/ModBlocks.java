@@ -11,8 +11,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.youritch.pythonputer.PythonputerMod;
+import net.youritch.pythonputer.block.custom.Computer;
 import net.youritch.pythonputer.item.ModItems;
-
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -21,6 +21,8 @@ public class ModBlocks {
     //BLOCKS :
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK).sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> COMPUTER = registerBlock("computer",
+            () -> new Computer(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     //FCT
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

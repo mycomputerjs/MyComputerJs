@@ -1,9 +1,10 @@
 {
   "item.pythonputer.sapphire": "Sapphire",
   "item.pythonputer.raw_sapphire": "Raw Sapphire",
-  "item.pythonputer.logo": "Pythonputer Logo",
+  "item.pythonputer.logo": "Python",
 
   "block.pythonputer.sapphire_block": "Block of Sapphire",
+  "block.pythonputer.computer": "Computer",
 
   "item_group.pythonputer.pythonputer_tab": "Pythonputer"
 }
