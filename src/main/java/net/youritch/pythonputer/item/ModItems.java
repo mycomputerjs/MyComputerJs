@@ -15,7 +15,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PYTHON = ITEMS.register("logo",
+    public static final RegistryObject<Item> PYTHON = ITEMS.register("python",
             () -> new Item(new Item.Properties()));
     //FCT
     public static void register(IEventBus evenBus) {
